@@ -1,11 +1,10 @@
 {
-  "name": "pizzaplay",
+  "name": "@pizzaplay/menu-repository",
   "version": "0.0.1",
   "description": "",
   "author": "",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "npx lerna bootstrap",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
