@@ -1,0 +1,1 @@
+export const IOC_KEY = Symbol('ioc');

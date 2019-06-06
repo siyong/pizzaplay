@@ -1,10 +1,10 @@
 import { Injectable, Controller, Get } from '@nestjs/common';
-import { MenuService } from '@pizzaplay/menu-service';
+import { IMenuService } from '@pizzaplay/menu-service';
 
 @Injectable()
 @Controller('/menu')
 export class MenuWebController {
-  constructor(private readonly menuService: MenuService) {
+  constructor(private readonly menuService: IMenuService) {
 
   }
 
