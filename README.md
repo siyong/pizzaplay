@@ -73,3 +73,13 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
   Nest is [MIT licensed](LICENSE).
+
+## TODO
+1. Microservice
+2. Event driven
+3. CQRS
+4. Repository for cache
+5. Switch provider at runtime
+6. CI
+7. Istio
+8. spinnaker CD

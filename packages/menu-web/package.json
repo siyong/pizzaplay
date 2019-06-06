@@ -1,5 +1,5 @@
 {
-  "name": "@pizzaplay/global",
+  "name": "@pizzaplay/menu-web",
   "version": "0.0.1",
   "main": "index",
   "description": "",
@@ -24,6 +24,7 @@
     "@nestjs/common": "^6.0.0",
     "@nestjs/core": "^6.0.0",
     "@nestjs/platform-express": "^6.0.0",
+    "@pizzaplay/menu-service": "0.0.1",
     "reflect-metadata": "^0.1.12",
     "rimraf": "^2.6.2",
     "rxjs": "^6.3.3"

@@ -5,7 +5,8 @@
   "author": "",
   "license": "MIT",
   "scripts": {
-    "bootstrap": "npx lerna bootstrap",
+    "publish": "npx lerna publish from-package --progress --no-ci --yes",
+    "bootstrap": "npx lerna bootstrap --ignore-prepublish --force-local --hoist --no-ci",
     "build": "tsc -p tsconfig.build.json",
     "format": "prettier --write \"src/**/*.ts\"",
     "start": "ts-node -r tsconfig-paths/register src/main.ts",
